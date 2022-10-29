@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retroogld</title>
+  <link rel ="stylesheet" href="styles.css">
+  <link rel ="stylesheet" href="media.css">
+  
+  <!--bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a href = "index.html" class="brand-logo">
+            <img src = "images/Retrogold (5).png" class = "header-logo">
+            <!-- <h1 class="header-logo">Retrogold</h1> -->
+          </a>
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class=" nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+           
+             <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item checkout">
+               <div class = "cart">
+                 <a href = "cart.html">
+                   <i class="bi bi-bag"></i>
+                   <div id = "cartAmount" class="cartAmount">0</div>
+                  </a>
+                </div>
+            </li>
+            
+          </ul>   
+        </div>
+      </nav>
+  </header>
+
+  <section class = "contact">
+    <div class = "contact-container">
+      <div id = "error"></div>
+      <form class= "form-section" id = "form-section">
+        <div class= "nameSection">
+          <div class= "firstName">
+            <label for="fname" class="nameType">First Name:</label><br>
+            <input type = "text" name = "fname" id="f-name"required><br><br>
+          </div>
+          <div class = "lastName">
+            <label for="lname" class="nameType" >Last Name:</label><br>
+            <input type = "text" name = "lname" id="l-name"required><br><br>
+          </div>
+        </div><br>
+        <label for = "email">Email:</label><br>
+        <input type = "email" name = "email" id="Email"required><br><br>
+        <label for ="phone">Phone:</label><br>
+        <input type = "phone" name = "phone" id= "phoneNumber"><br><br>
+        <label for ="Subject">Choose Topic:</label><br>
+        <select name = "topics" id= "topics">
+          <option value = "Orders">Orders</option>
+          <option value = "Feedback">Feedback</option>
+          <option value = "Questions">Questions</option>
+        </select>
+        <br><br>
+        <label for = "message" class="message" >Message:</label><br>
+        <textarea id = "messageArea"></textarea><br><br>
+        <input type = "submit" value="Send Message">
+      </div>
+    </form>
+  </section>
+
+    <footer class = "footerSection">
+    <div class = "container">
+      <div class= "row centerControl">
+
+        <div class = "footerTitle">
+          <a href = "index.html"><img src = "images/Retrogold (5).png" class = "header-logo"/> </a>
+        </div>
+
+        <div class= "col-lg-3 col-sm-6">
+          <div class = "ftLeft-side">
+            <h5 class= "footerSectionHeading">Company</h5>
+            <div class = "AboutList">
+              <ul>
+                <li class ="list-item">About Retrogold</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class= "col-lg-3 col-sm-6 vertLine">
+          <div class = "companyList">
+            <h5 class = "connectHeading">Connect with us</h5>
+              <ul class = "footerList">  
+              <li class ="socialList-item text-start"><i class="fa-brands fa-instagram"></i>Instagram</li>
+              <li class ="socialList-item text-start"><i class="fa-brands fa-pinterest"></i>Pinterest</li>
+              <li class ="socialList-item text-start"><i class="fa-brands fa-twitter"></i>Twitter</li>
+            </ul>
+          </div>
+        </div>
+
+        
+        <div class= "col-lg-6">
+          <h5 class= "subscriptionHeading text-start">Subscribe to our newsletter and Get 10% off your first purchase</h5>
+          
+          <div class = "email">
+            <input type = "email" name= "email" id= "Email" placeholder="Email Address">
+            <button value = "signUp">Sign Up</button>
+            <p class="subNotice">By clicking "submit," you agree to receive emails from Retrogold and accept our web terms of use and privacy and cookie policy. *Terms apply. </p>
+          </div>
+          
+        </div>
+      </div>
+        
+      
+    </div>
+  </footer>
+</body>
+<script src = "form.js"></script>
+ <script src = "product.js"></script>
+  <script src = "productpage.js"></script>
+  <script src = "cart.js"></script>
+  <script src = "shop.js"></script>
+</html>

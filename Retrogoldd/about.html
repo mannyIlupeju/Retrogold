@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel ="stylesheet" href="styles.css">
+  <link rel ="stylesheet" href="media.css">
+  <!--bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a href = "index.html" class="brand-logo">
+            <img src = "images/Retrogold (5).png" class = "header-logo">
+            <!-- <h1 class="header-logo">Retrogold</h1> -->
+          </a>
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class=" nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+        
+             <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item checkout">
+               <div class = "cart">
+                 <a href = "cart.html">
+                   <i class="bi bi-bag"></i>
+                   <div id = "cartAmount" class="cartAmount">0</div>
+                  </a>
+                </div>
+            </li>
+          </ul>   
+        </div>
+      </nav>
+  </header>
+      <section class = "aboutSection">
+        <div class = "about-container">
+          <div class = "headlineBorder">
+            <h2 class = "aboutHeadline" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">ABOUT US</h2>
+          </div>
+          <div class="aboutImage">
+            <img src = "images/2.png" class = "about-image">
+          </div>
+
+          <p id = "p1">
+            Retrogold Lifestyle is ruled by a Mind. Body. Spirit & Home connection principle.
+          </p>
+          <br>
+          <p id = "p2">
+            By Creating harmony in these four aspects, we believe every individual can harness and tap into their
+            true potential. We offer products, services and most importantly, Knowledge that aids nurturing. 
+            Ultimately, the connection between ourselves and our environment. 
+          </p>
+          <p id = "p3">
+            From our beauty regimes and natural healing medicine to discussing how to enjoy being in the present moment.
+            From Aspirable interior decor to using tarot as part of self care.
+          </p>
+
+          <div class = "Rg101">
+            <span class="aboutPhrase"> It's a lifestyle</span>
+            <span class="rg101">RG</span><span class="rg-number">101</span>
+          </div>
+
+
+        </div>
+      </section>
+
+       
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src = "product.js"></script>
+  <script src = "productpage.js"></script>
+  <script src = "cart.js"></script>
+  <script src = "shop.js"></script>
+</body>
+</html>

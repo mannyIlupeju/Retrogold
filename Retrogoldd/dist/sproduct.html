@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Detail page</title>
+  <link rel ="stylesheet" href="styles.css">
+  <!--bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500&display=swap" rel="stylesheet">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <section class= "header">
+    <div class="nav-section container-fluid">
+      <nav class="navbar navbar-light bg-light">
+          <a href = "index.html" class="brand-logo" data-aos="fade-left" data-aos-duration="3000">
+            <img src = "images/Retrogold (5).png" class = "header-logo">
+          </a>
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class=" nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>   
+      </nav>
+    </div>
+  </section>
+
+
+  <!-- Product Details -->
+
+  <section class = "sproduct-page" id = "prodetails">
+    <div class = "product-page">
+      <div class = "sproduct-display">
+        <img src = "Product images/PL003(3).png" width = "100%" alt = "terracota plant pot" id = "product-img"/> 
+        <div class = "small-img-group">
+          <div class = "small-img-col">
+            <img src = "Product images/DSC_0951.png" width = "100%" alt = "green plant pot" class = "small-product-img"/>
+          </div>
+          <div class = "small-img-col">
+            <img src = "Product images/DSC_0959.png" width = "100%" alt = "green plant pot" class = "small-product-img"/>
+          </div>
+          <div class = "small-img-col">
+            <img src = "Product images/DSC_0960.png" width = "100%" alt = "green plant pot" class = "small-product-img"/>
+          </div>
+        </div>
+      </div>
+     
+        
+        
+        <div class = "single-product-details">
+          <h6>Home/Plant Pots</h6>
+          <h4>Retrogold Plant Pot</h4>
+          <h2>$40.00</h2>
+          <select>
+            <option>Green</option>
+            <option>Terracota</option>
+            <option>Black</option>
+          </select>
+          <input type = "number" value = 1>
+          <button class = "btn">Add to Cart</button>
+          <h4>Product Details</h4>
+          <p class = "product-info">
+            <span>RetroGold ceramic pot comes with a unique design that will add a stylish touch to any room in your home with or without a plant in it.</span><br>
+            <span>The 3D textured spiral pattern feels good to the touch and will make a great addition to your plant haven.</span><br>
+            <span><em>Material composition</em>: RG plant pots are made from high quality ceramic materials.</span><br>
+            <span><em>Design and Color</em>: The pots feature a subtle 3D spiral texture pattern that feels good to touch and will make a great addition to your plant haven. Its color makes it seamless for the pots to be a happy part of your home office, window pane and other areas in the household.</span>
+          </p>
+        </div>
+        
+      </div>
+  </section>
+
+  <!-- Product detail ends -->
+
+  <section class = "product-section">
+     <div class = "product-box">
+      <div class = "product-headline">
+       <h2 class = "relatedProductTitle">Related Products</h2>
+     </div>
+     <div class = "row row-gap">
+          <div class = "col-3">
+              <img src = "Product images/feey-buUOOaoUOQI-unsplash.jpeg" alt = "Fine japanese tea" class = "img-box"/>
+              <div class = "product-details">
+                <span class ="brand-name">Retrogold</span>
+                <span class ="brand-item">Plant Pot</span>
+                <span class = "price">$30.00</span>
+              </div>
+          </div>
+
+          <div class = "col-3">
+           
+              <img src = "Product images/rachel-cheng-S6Ame1KXYZY-unsplash.jpeg" alt = "moisturizer by Biotherm" class = "img-box"/>
+              <div class = "product-details">
+                <span class ="brand-name">Biotherm</span>
+                <span class ="brand-item">Moisturizer cream</span>
+                <span class = "price">$60.00</span>
+              </div>
+            
+          </div>
+
+
+          <div class = "col-3">
+            
+              <img src = "Product images/curology-X1sIr53DhzA-unsplash.jpeg" alt = "Retrogold plant pot" class = "img-box"/>
+              <div class = "product-details">
+                <span class ="brand-name">Retrogold</span>
+                <span class ="brand-item">Green Plant pot</span>
+                <span class = "price">$40.00</span>
+              </div>
+           
+          </div>
+
+            <div class = "col-3">
+            
+              <img src = "Product images/hearted-co-94308nAliWU-unsplash.jpeg" alt = "Retrogold plant pot" class = "img-box"/>
+              <div class = "product-details">
+                <span class ="brand-name">Retrogold</span>
+                <span class ="brand-item">Green Plant pot</span>
+                <span class = "price">$40.00</span>
+              </div>
+            
+          </div>
+     </div>
+   </div>
+  </section>
+
+
+
+  <footer class = "footerSection">
+    <div class = "container">
+      <div class= "row centerControl">
+        <div class = "footerTitle">
+          <a href = "index.html"><img src = "images/Retrogold (5).png" class = "header-logo"/> </a>
+        </div>
+        <div class= "col-lg-3">
+          <h5 class= "footerSectionHeading">Company</h5>
+          <div class = "Aboutist">
+            <ul class = "footerList">
+              <li class ="list-item">About Retrogold</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class= "col-lg-3 vertLine">
+          <h5 class>Connect with us</h5>
+            <div class = "companyList">
+            <ul class = "footerList">  
+              <li class ="socialList-item text-start"><i class="fa-brands fa-instagram"></i>Instagram</li>
+              <li class ="socialList-item text-start"><i class="fa-brands fa-pinterest"></i>Pinterest</li>
+              <li class ="socialList-item text-start"><i class="fa-brands fa-twitter"></i>Twitter</li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class= "col-6">
+          <h5 class= "footerSectionHeading text-start">Subscribe to our newsletter and Get 10% off your first purchase</h5>
+
+          <div class = "email">
+            <input type = "email" name= "email" id= "Email" placeholder="Email Address">
+            <button value = "signUp">Sign Up</button>
+            <p class="subNotice">By clicking "submit," you agree to receive emails from Retrogold and accept our web terms of use and privacy and cookie policy. *Terms apply. </p>
+          </div>
+
+        </div>
+      </div>
+      
+      
+    </div>
+  </footer>
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    // To change the image on the main box to the images in the small box
+  //  const mainImg = document.querySelector('#product-img');
+
+  //  const smallImg = document.querySelectorAll('.small-product-img');
+
+
+   //Change image src in Main box if a small box image is clicked. 
+
+  //  smallImg[0].addEventListener("click", ()=> 
+  //    mainImg.src = smallImg[0].src
+  //  );
+
+  //  smallImg[1].addEventListener("click", ()=> 
+  //    mainImg.src = smallImg[1].src
+  //  );
+
+
+  //  smallImg[2].addEventListener("click", ()=> 
+  //    mainImg.src = smallImg[2].src
+  //  );
+
+
+  </script>
+  <script src ="product.js"></script>
+ 
+</body>
+</html>
